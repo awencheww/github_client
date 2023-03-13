@@ -209,7 +209,7 @@ class _PullRequestsListState extends State<PullRequestsList> {
   }
 }
 
-Future<void> _launchUrl(BuildContext context, String url) async {
+Future<void> _launchUrl(context, String url) async {
   if (await canLaunchUrlString(url)) {
     await launchUrlString(url);
   } else {
