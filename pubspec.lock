@@ -325,6 +325,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+  window_to_front:
+    dependency: "direct main"
+    description:
+      name: window_to_front
+      sha256: "7aef379752b7190c10479e12b5fd7c0b9d92adc96817d9e96c59937929512aee"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.3"
 sdks:
   dart: ">=2.19.2 <3.0.0"
   flutter: ">=3.3.0"
